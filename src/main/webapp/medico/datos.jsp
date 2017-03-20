@@ -13,8 +13,8 @@
                         <a class="list-group-item active" contenteditable="true">Mis datos</a>
                     </div>
                 </div>
-               
-                
+
+
                 <div class="col-md-9">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
@@ -105,5 +105,7 @@
                 </div>
             </div>
         </div>
-        </body>
+        <div class="section"></div>
+
+    </body>
 </html>
