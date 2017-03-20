@@ -9,10 +9,20 @@
                     <ul class="nav nav-justified nav-tabs"></ul>
                     <div class="signin-form-container">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-4">
                                 <a class="btn btn-lg btn-primary register-button" href="registrarpaciente.jsp"><i class="fa fa-fw fa-plus-circle"></i>Registrar paciente</a>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-4">
+                                <form class="form-horizontal" role="form">
+                                    <div class="input-group input-group-lg">
+                                        <input type="text" class="form-control" placeholder="Buscar por tarjeta..." aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="fa fa-fw -circle fa-search"></i>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-4">
                                 <form class="form-horizontal" role="form">
                                     <div class="input-group input-group-lg">
                                         <input type="text" class="form-control" placeholder="Buscar por DNI..." aria-describedby="basic-addon2">
@@ -79,5 +89,6 @@
             </div>
         </div>
 
+        <%@include file="../footer.jsp" %>
 
     </body></html>

@@ -6,18 +6,18 @@
                 <li 
                     <%
                         if (request.getRequestURI().contains("paciente")) {
-                        %>
-                        class="active"
-                        <% }%>
-                        >
-                        <a href="gestiondepacientes.jsp"><i class="fa fa-fw fa-lg fa-user"></i>Gestión de pacientes</a>
+                    %>
+                    class="active"
+                    <% }%>
+                    >
+                    <a href="gestiondepacientes.jsp"><i class="fa fa-fw fa-lg fa-user"></i>Gestión de pacientes</a>
                 </li>
                 <li <%
-                    if (request.getRequestURI().contains("medico")) { 
-                        %>
-                        class="active"
-                        <% }%>
-                        >
+                    if (request.getRequestURI().contains("medico")) {
+                    %>
+                    class="active"
+                    <% }%>
+                    >
                     <a href="gestiondemedicos.jsp"><i class="fa fa-fw fa-lg fa-user-md"></i>Gestión de médicos</a>
                 </li>
             </ul>

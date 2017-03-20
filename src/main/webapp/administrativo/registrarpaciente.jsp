@@ -3,7 +3,7 @@
     <body class="body-background">
         <%@include file="../base.jsp" %>
         <%@include file="navigation.jsp" %>
-        
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -146,5 +146,6 @@
                 </div>
             </div>
         </div>
+        <%@include file="../footer.jsp" %>
 
     </body></html>
