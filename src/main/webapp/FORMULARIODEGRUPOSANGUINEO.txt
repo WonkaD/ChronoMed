@@ -1,0 +1,14 @@
+<div class="form-group">
+                      <label for="inputBloodType" class="control-label">Grupo sanguíneo</label>
+                      <select class="form-control" id="inputBloodType"
+                      disabled="disabled">
+                        <option>O-</option>
+                        <option>O+</option>
+                        <option>A-</option>
+                        <option>A+</option>
+                        <option>B-</option>
+                        <option>B+</option>
+                        <option>AB-</option>
+                        <option>AB+</option>
+                      </select>
+                    </div>
