@@ -1,4 +1,5 @@
-<div class="bottom-navbar navbar navbar-default navbar-inverse">
+<div class="section"></div>
+<div class="bottom-navbar navbar navbar-default navbar-fixed-bottom navbar-inverse">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
