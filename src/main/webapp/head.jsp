@@ -7,7 +7,7 @@
 
 <head>
     <title>ChronoMed</title>
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="/ChronoMed/favicon.ico">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
