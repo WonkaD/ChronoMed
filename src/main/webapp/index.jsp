@@ -1,6 +1,6 @@
 <html>
     <%@include file="head.jsp" %>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <div class="cover" id="intro-section">
             <div class="background-image-fixed cover-image" style="background-image : url('images/medicamentos.jpeg')"></div>
             <div class="container">

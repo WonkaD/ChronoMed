@@ -25,31 +25,31 @@
                             </div>
                         </div>
                         <div class="list-group">
-                            <a href="" class="list-group-item">
+                            <a href="editarmedico.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Juan de Cual<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1058623512347
                                 </p>
                             </a>
-                            <a href="" class="list-group-item">
+                            <a href="editarmedico.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Juan de Cual<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1058623512347
                                 </p>
                             </a>
-                            <a href="" class="list-group-item">
+                            <a href="editarmedico.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Juan de Cual<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1058623512347
                                 </p>
                             </a>
-                            <a href="" class="list-group-item">
+                            <a href="editarmedico.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Juan de Cual<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1058623512347
                                 </p>
                             </a>
-                            <a href="" class="list-group-item">
+                            <a href="editarmedico.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Juan de Cual<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1058623512347

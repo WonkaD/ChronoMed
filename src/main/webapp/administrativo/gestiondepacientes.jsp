@@ -34,25 +34,25 @@
                             </div>
                         </div>
                         <div class="list-group">
-                            <a href="" class="list-group-item">
+                            <a href="editarpaciente.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Pepe de Tal<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1234102T
                                 </p>
                             </a>
-                            <a href="" class="list-group-item">
+                            <a href="editarpaciente.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Pepe de Tal<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1234102T
                                 </p>
                             </a>
-                            <a href="" class="list-group-item">
+                            <a href="editarpaciente.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Pepe de Tal<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1234102T
                                 </p>
                             </a>
-                            <a href="" class="list-group-item">
+                            <a href="editarpaciente.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Pepe de Tal<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">
                                     1234102T
