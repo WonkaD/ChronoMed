@@ -1,13 +1,9 @@
-<html><head>
-        <title>Registrar paciente</title>
-        <link rel="icon" href="favicon.ico">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css\index.css">
-    </head><body class="body-background">
+<html>
+    <%@include file="../head.jsp" %>
+    <body class="body-background">
+        <%@include file="../base.jsp" %>
+        <%@include file="navigation.jsp" %>
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -15,7 +11,7 @@
                     <div class="signin-form-container">
                         <div class="row">
                             <div class="col-md-2">
-                                <a class="btn btn-block btn-lg btn-link register-button"><i class="fa fa-fw -circle fa-arrow-circle-left"></i>Atr√°s</a>
+                                <a href="gestiondepacientes.jsp" class="btn btn-block btn-lg btn-link register-button"><i class="fa fa-fw -circle fa-arrow-circle-left"></i>Atr·s</a>
                             </div>
                             <div class="col-md-8">
                                 <h1 class="form-title text-center">Formulario de registro de pacientes</h1>
@@ -52,7 +48,7 @@
                                                     <input type="text" class="form-control" id="inputBirthDate" placeholder="1 de enero de 1970">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputGender" class="control-label">G√©nero*</label>
+                                                    <label for="inputGender" class="control-label">GÈnero*</label>
                                                     <select class="form-control" id="inputGender">
                                                         <option>Masculino</option>
                                                         <option>Femenino</option>
@@ -60,7 +56,7 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="inputNationality" class="control-label">Nacionalidad*</label>
-                                                    <input type="password" class="form-control" id="inputNationality" placeholder="Espa√±a">
+                                                    <input type="password" class="form-control" id="inputNationality" placeholder="EspaÒa">
                                                 </div>
                                             </div>
                                         </form>
@@ -77,7 +73,7 @@
                                             <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
                                         </li>
                                     </ol>
-                                    <a class="btn btn-primary btn-xs"><i class="-circle fa fa-fw fa-plus-circle"></i>A√±adir tarjeta sanitaria&nbsp;</a>
+                                    <a class="btn btn-primary btn-xs"><i class="-circle fa fa-fw fa-plus-circle"></i>AÒadir tarjeta sanitaria&nbsp;</a>
                                 </div>
                                 <div class="panel-footer">*Campos obligatorios</div>
                             </div>
@@ -90,17 +86,17 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label for="inputAddress" class="control-label">Direcci√≥n*</label>
+                                                    <label for="inputAddress" class="control-label">DirecciÛn*</label>
                                                     <input type="text" class="form-control" id="inputAddress" placeholder="Calle de la Salud 55">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="inputLocality" class="control-label" contenteditable="true">Localidad*</label>
-                                                    <input type="text" class="form-control" id="inputLocality" placeholder="G√°ldar">
+                                                    <input type="text" class="form-control" id="inputLocality" placeholder="G·ldar">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputZipcode" class="control-label">C√≥digo postal*</label>
+                                                    <label for="inputZipcode" class="control-label">CÛdigo postal*</label>
                                                     <input type="text" class="form-control" id="inputZipcode" placeholder="12345">
                                                 </div>
                                                 <div class="form-group">
@@ -110,15 +106,15 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label for="inputCountry" class="control-label" contenteditable="true">Pa√≠s*</label>
-                                                    <input type="text" class="form-control" id="inputCountry" placeholder="Espa√±a">
+                                                    <label for="inputCountry" class="control-label" contenteditable="true">PaÌs*</label>
+                                                    <input type="text" class="form-control" id="inputCountry" placeholder="EspaÒa">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputPhoneNumber" class="control-label">Tel√©fono principal*</label>
+                                                    <label for="inputPhoneNumber" class="control-label">TelÈfono principal*</label>
                                                     <input type="text" class="form-control" id="inputPhoneNumber" placeholder="928555666">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputAlternativePhoneNumber" class="control-label">Tel√©fono alternativo</label>
+                                                    <label for="inputAlternativePhoneNumber" class="control-label">TelÈfono alternativo</label>
                                                     <input type="text" class="form-control" id="inputAlternativePhoneNumber" placeholder="666777888">
                                                 </div>
                                             </div>
@@ -136,7 +132,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label for="inputEmail" class="control-label">Correo electr√≥nico*</label>
+                                                    <label for="inputEmail" class="control-label">Correo electrÛnico*</label>
                                                     <input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@ejemplo.com">
                                                 </div>
                                             </div>
@@ -150,6 +146,5 @@
                 </div>
             </div>
         </div>
-
 
     </body></html>

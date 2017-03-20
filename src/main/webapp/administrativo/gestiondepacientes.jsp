@@ -1,15 +1,8 @@
-<html><head>
-        <title>Gestión de pacientes</title>
-        <link rel="icon" href="favicon.ico">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css\index.css">
-    </head><body class="body-background">
-
-
+<html>
+    <%@include file="../head.jsp" %>
+    <body class="body-background">
+        <%@include file="../base.jsp" %>
+        <%@include file="navigation.jsp" %>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -17,7 +10,7 @@
                     <div class="signin-form-container">
                         <div class="row">
                             <div class="col-md-7">
-                                <a class="btn btn-lg btn-primary register-button" href="administrativo-registrarpaciente.html"><i class="fa fa-fw fa-plus-circle"></i>Registrar paciente</a>
+                                <a class="btn btn-lg btn-primary register-button" href="registrarpaciente.jsp"><i class="fa fa-fw fa-plus-circle"></i>Registrar paciente</a>
                             </div>
                             <div class="col-md-5">
                                 <form class="form-horizontal" role="form">
@@ -85,7 +78,6 @@
                 </div>
             </div>
         </div>
-
 
 
     </body></html>

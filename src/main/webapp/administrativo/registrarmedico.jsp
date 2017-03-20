@@ -1,23 +1,19 @@
-<html><head>
-        <title>Registrar mÃ©dico</title>
-        <link rel="icon" href="favicon.ico">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css\index.css">
-    </head><body class="body-background">
+<html>
+    <%@include file="../head.jsp" %>
+    <body class="body-background">
+        <%@include file="../base.jsp" %>
+        <%@include file="navigation.jsp" %>
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="signin-form-container">
                         <div class="row">
                             <div class="col-md-2">
-                                <a class="btn btn-block btn-lg btn-link register-button"><i class="fa fa-fw -circle fa-arrow-circle-left"></i>AtrÃ¡s</a>
+                                <a href="gestiondemedicos.jsp" class="btn btn-block btn-lg btn-link register-button"><i class="fa fa-fw -circle fa-arrow-circle-left"></i>Atrás</a>
                             </div>
                             <div class="col-md-8">
-                                <h1 class="form-title text-center">Formulario de registro de mÃ©dicos</h1>
+                                <h1 class="form-title text-center">Formulario de registro de médicos</h1>
                             </div>
                             <div class="col-md-2">
                                 <a class="btn btn-block btn-lg btn-link pull-right register-button">Enviar<i class="fa fa-fw -circle fa-check-circle"></i></a>
@@ -45,7 +41,7 @@
                                                     <input type="password" class="form-control" id="inputDNI" placeholder="123452343Q">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputGender" class="control-label">GÃ©nero</label>
+                                                    <label for="inputGender" class="control-label">Género</label>
                                                     <select class="form-control" id="inputGender">
                                                         <option>Masculino</option>
                                                         <option>Femenino</option>
@@ -55,18 +51,18 @@
                                             <div class="col-md-6" draggable="true">
                                                 <div class="form-group">
                                                     <label for="inputSpeciality" class="control-label">Especialidad</label>
-                                                    <input type="text" class="form-control" id="inputSpeciality" placeholder="GinecologÃ­a">
+                                                    <input type="text" class="form-control" id="inputSpeciality" placeholder="Ginecología">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputBoardNumber" class="control-label">NÂº de colegiado</label>
+                                                    <label for="inputBoardNumber" class="control-label">Nº de colegiado</label>
                                                     <input type="text" class="form-control" id="inputBoardNumber" placeholder="4329509837">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputPhoneNumber" class="control-label">TelÃ©fono de consulta</label>
+                                                    <label for="inputPhoneNumber" class="control-label">Teléfono de consulta</label>
                                                     <input type="text" class="form-control" id="inputPhoneNumber" placeholder="2352363123">
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="inputALternativePhoneNumber" class="control-label">TelÃ©fono personal</label>
+                                                    <label for="inputALternativePhoneNumber" class="control-label">Teléfono personal</label>
                                                     <input type="text" class="form-control" id="inputAlternativePhoneNumber" placeholder="7245623451">
                                                 </div>
                                             </div>
@@ -84,7 +80,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="form-group">
-                                                    <label for="inputEmail" class="control-label">Correo electrÃ³nico</label>
+                                                    <label for="inputEmail" class="control-label">Correo electrónico</label>
                                                     <input type="email" class="form-control" id="inputEmail" placeholder="ejemplo@ejemplo.com">
                                                 </div>
                                             </div>

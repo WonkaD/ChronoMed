@@ -11,7 +11,7 @@
                     <div class="signin-form-container">
                         <div class="row">
                             <div class="col-md-7">
-                                <a class="btn btn-lg btn-primary register-button" href="administrativo-registrarmedico.html"><i class="fa fa-fw fa-plus-circle"></i>Registrar médico</a>
+                                <a class="btn btn-lg btn-primary register-button" href="registrarmedico.jsp"><i class="fa fa-fw fa-plus-circle"></i>Registrar médico</a>
                             </div>
                             <div class="col-md-5">
                                 <form class="form-horizontal" role="form">
