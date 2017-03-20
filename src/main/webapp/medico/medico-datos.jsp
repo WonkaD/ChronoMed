@@ -1,7 +1,7 @@
 <html>
     <%@include file="../head.jsp" %>        
     <body class="body-background">
-        <%@include file="base.jsp" %>
+        <%@include file="../base.jsp" %>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
