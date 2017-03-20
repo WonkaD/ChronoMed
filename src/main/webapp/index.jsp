@@ -21,7 +21,7 @@
                 <a href="#"><i class="fa fa-fw fa-lg fa-user"></i>Soy paciente<br></a>
               </li>
               <li>
-                <a href="#"><i class="fa fa-fw fa-lg fa-user-md"></i>Soy mÃ©dico<br></a>
+                <a href="#"><i class="fa fa-fw fa-lg fa-user-md"></i>Soy médico<br></a>
               </li>
               <li>
                 <a href="#"><i class="fa fa-briefcase fa-fw fa-lg"></i>Soy administrativo<br></a>
@@ -74,7 +74,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Â© ChronoMed 2017</a>
+          <a class="navbar-brand" href="#">© ChronoMed 2017</a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -98,7 +98,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Â¿QuÃ© me puede ofrecer ChronoMed?</h1>
+            <h1>¿Qué me puede ofrecer ChronoMed?</h1>
           </div>
         </div>
       </div>
@@ -109,28 +109,28 @@
           <div class="col-md-4 text-center">
             <img src="images\paciente.jpeg" class="center-block img-responsive">
             <h2 class="text-center">Como paciente</h2>
-            <p>Una manera rÃ¡pida de acceder a tu historial mÃ©dico desde casa, tu trabajo
-              o donde sea. Te ahorrarÃ¡s la necesidad de tener un historial en cada centro
-              mÃ©dico que visites. &nbsp;TambiÃ©n te avisaremos cuando algÃºn mÃ©dico visite
-              tu historial. Tu privacidad y la seguridad de tus datos mÃ©dicos estÃ¡n en
+            <p>Una manera rápida de acceder a tu historial médico desde casa, tu trabajo
+              o donde sea. Te ahorrarás la necesidad de tener un historial en cada centro
+              médico que visites. &nbsp;También te avisaremos cuando algún médico visite
+              tu historial. Tu privacidad y la seguridad de tus datos médicos están en
               buenas manos.</p>
           </div>
           <div class="col-md-4">
             <img src="images\medico.jpg" class="center-block img-responsive">
-            <h2 class="text-center">Como mÃ©dico</h2>
-            <p class="text-center">Un portal Ãºnico para acceder al historial de todos tus pacientes. PodrÃ¡s
-              aÃ±adir o consultar informaciÃ³n como enfermedades actuales, distintas consultas
-              que el paciente ha tenido, etc. Deja atrÃ¡s esas peticiones a pacientes
-              para que traigan su historial mÃ©dico. Â¡Sigue ejerciendo tu profesiÃ³n de
-              manera mÃ¡s eficaz!</p>
+            <h2 class="text-center">Como médico</h2>
+            <p class="text-center">Un portal único para acceder al historial de todos tus pacientes. Podrás
+              añadir o consultar información como enfermedades actuales, distintas consultas
+              que el paciente ha tenido, etc. Deja atrás esas peticiones a pacientes
+              para que traigan su historial médico. ¡Sigue ejerciendo tu profesión de
+              manera más eficaz!</p>
           </div>
           <div class="col-md-4 text-center">
             <img src="images\administrativo.jpg" class="center-block img-responsive">
             <h2 class="text-center">Como administrativo</h2>
-            <p>Un sistema eficaz y fiable para la asignaciÃ³n de pacientes a mÃ©dicos.
-              EvitarÃ¡s las largas colas que se forman con pacientes que buscan su historial
-              mÃ©dico del centro concreto, ya que estos podrÃ¡n acceder desde cualquier
-              lugar. Tu Ãºnica tarea: que tanto pacientes como mÃ©dicos comienzen a usar
+            <p>Un sistema eficaz y fiable para la asignación de pacientes a médicos.
+              Evitarás las largas colas que se forman con pacientes que buscan su historial
+              médico del centro concreto, ya que estos podrán acceder desde cualquier
+              lugar. Tu única tarea: que tanto pacientes como médicos comienzen a usar
               ChronoMed.
               <br>
               <br>
@@ -152,7 +152,7 @@
             <img src="images\team\al.jpg" class="img-circle img-responsive">
           </div>
           <div class="col-sm-4">
-            <h3 class="text-left">AdriÃ¡n Louro</h3>
+            <h3 class="text-left">Adrián Louro</h3>
             <p class="lead text-left">Developer</p>
           </div>
           <div class="col-sm-2">
@@ -175,7 +175,7 @@
             <img src="images\team\og.jpg" class="img-circle img-responsive">
           </div>
           <div class="col-sm-4 text-center">
-            <h3 class="text-left">Ã“scar GarcÃ­a</h3>
+            <h3 class="text-left">Óscar García</h3>
             <p class="lead text-left">Deployer</p>
           </div>
         </div>
@@ -213,11 +213,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 text-left">
-            <h1>ContÃ¡ctanos</h1>
-            <p>Escuela de IngenierÃ­a InformÃ¡tica
+            <h1>Contáctanos</h1>
+            <p>Escuela de Ingeniería Informática
               <br>Campus de Tafira
               <br>Universidad de Las Palmas de Gran Canaria
-              <br>Las Palmas, EspaÃ±a</p>
+              <br>Las Palmas, España</p>
           </div>
           <div class="col-md-6">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.4013483806557!2d-15.453591885445855!3d28.07329808264172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40942fde2813a9%3A0x8b61a40c00405a46!2sUniversidad+de+Las+Palmas+de+Gran+Canaria%3A+Escuela+de+Ingenier%C3%ADa+Inform%C3%A1tica!5e0!3m2!1sde!2ses!4v1487770546552" width="600" height="450" frameborder="0" style="border:0" allowfullscreen="" class="img-responsive"></iframe>
