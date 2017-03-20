@@ -25,11 +25,11 @@
             <div class="container logo-header">
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="images\ChronoMed.png" class="img-responsive">
+                        <img src="/ChronoMed/images/ChronoMed.png" class="img-responsive">
                     </div>
                     <div class="col-md-9">
                         <div class="text-right">
-                            <h1 class="text-right">Todos tus pacientes,
+                            <h1 class="text-right">Historiales médicos,
                                 <span class="label label-primary">a tu alcance</span>
                             </h1>
                         </div>
@@ -37,19 +37,3 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h5>Bienvenido,
-                        <b>Dr. &lt;PEREZ&gt;</b>
-                    </h5>
-                    <div class="list-group">
-                        <a class="list-group-item">Mis pacientes</a>
-                        <a class="list-group-item active" contenteditable="true">Mis datos</a>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        <div class="section"></div>
-   
