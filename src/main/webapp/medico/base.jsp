@@ -1,14 +1,4 @@
-<html><head>
-        <title>Mis datos</title>
-        <link rel="icon" href="favicon.ico">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="css\index.css">
-    </head><body class="body-background">
-        <div class="bottom-navbar navbar navbar-default navbar-fixed-bottom navbar-inverse">
+<div class="bottom-navbar navbar navbar-default navbar-fixed-bottom navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
@@ -17,12 +7,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><i class="fa fa-fw fa-sign-out"></i>Cerrar sesiÃ³n</a>
+                    <a class="navbar-brand" href="#"><i class="fa fa-fw fa-sign-out"></i>Cerrar sesión</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">TÃ©rminos y condiciones</a>
+                            <a href="#">Términos y condiciones</a>
                         </li>
                         <li>
                             <a href="#">Ayuda</a>
@@ -62,6 +52,4 @@
             </div>
         </div>
         <div class="section"></div>
-    
-
-</body></html>
+   

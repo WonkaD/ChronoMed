@@ -1,19 +1,12 @@
-<html><head>
-    <link rel="icon" href="favicon.ico">
-    <title>ChronoMed</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
-  </head><body>
+<html>
+<%@include file="head.jsp" %>
+<body>
     <div class="cover" id="intro-section">
       <div class="background-image-fixed cover-image" style="background-image : url('images/medicamentos.jpeg')"></div>
       <div class="container">
         <div class="row form">
           <div class="col-md-5 logo">
-            <img src="images\ChronoMed.png" class="center-block img-responsive logo">
+            <img src="images/ChronoMed.png" class="center-block img-responsive logo">
           </div>
           <div class="col-md-7 signin-form">
             <ul class="nav nav-justified nav-tabs">
@@ -107,7 +100,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 text-center">
-            <img src="images\paciente.jpeg" class="center-block img-responsive">
+            <img src="images/paciente.jpeg" class="center-block img-responsive">
             <h2 class="text-center">Como paciente</h2>
             <p>Una manera rápida de acceder a tu historial médico desde casa, tu trabajo
               o donde sea. Te ahorrarás la necesidad de tener un historial en cada centro
@@ -116,7 +109,7 @@
               buenas manos.</p>
           </div>
           <div class="col-md-4">
-            <img src="images\medico.jpg" class="center-block img-responsive">
+            <img src="images/medico.jpg" class="center-block img-responsive">
             <h2 class="text-center">Como médico</h2>
             <p class="text-center">Un portal único para acceder al historial de todos tus pacientes. Podrás
               añadir o consultar información como enfermedades actuales, distintas consultas
@@ -125,7 +118,7 @@
               manera más eficaz!</p>
           </div>
           <div class="col-md-4 text-center">
-            <img src="images\administrativo.jpg" class="center-block img-responsive">
+            <img src="images/administrativo.jpg" class="center-block img-responsive">
             <h2 class="text-center">Como administrativo</h2>
             <p>Un sistema eficaz y fiable para la asignación de pacientes a médicos.
               Evitarás las largas colas que se forman con pacientes que buscan su historial
@@ -149,14 +142,14 @@
         </div>
         <div class="row team-row">
           <div class="col-sm-2">
-            <img src="images\team\al.jpg" class="img-circle img-responsive">
+            <img src="images/team/al.jpg" class="img-circle img-responsive">
           </div>
           <div class="col-sm-4">
             <h3 class="text-left">Adrián Louro</h3>
             <p class="lead text-left">Developer</p>
           </div>
           <div class="col-sm-2">
-            <img class="img-circle img-responsive" src="images\team\gm.jpeg">
+            <img class="img-circle img-responsive" src="images/team/gm.jpeg">
           </div>
           <div class="col-sm-4">
             <h3 class="text-left font-bold">Gerardo Medina</h3>
@@ -165,14 +158,14 @@
         </div>
         <div class="row team-row">
           <div class="col-sm-2">
-            <img src="images\team\ss.jpg" class="img-circle img-responsive">
+            <img src="images/team/ss.jpg" class="img-circle img-responsive">
           </div>
           <div class="col-sm-4">
             <h3 class="text-left">Saskia Santana</h3>
             <p class="lead text-left">DB Designer</p>
           </div>
           <div class="col-sm-2">
-            <img src="images\team\og.jpg" class="img-circle img-responsive">
+            <img src="images/team/og.jpg" class="img-circle img-responsive">
           </div>
           <div class="col-sm-4 text-center">
             <h3 class="text-left">Óscar García</h3>
@@ -181,7 +174,7 @@
         </div>
         <div class="row team-row">
           <div class="col-sm-2">
-            <img src="images\team\ja.jpg" class="img-circle img-responsive">
+            <img src="images/team/ja.jpg" class="img-circle img-responsive">
           </div>
           <div class="col-sm-4">
             <h3 class="text-left">Jonathan Arencibia
@@ -190,7 +183,7 @@
             <p class="lead text-left">Developer</p>
           </div>
           <div class="col-sm-2">
-            <img src="images\team\gc.jpg" class="img-circle img-responsive">
+            <img src="images/team/gc.jpg" class="img-circle img-responsive">
           </div>
           <div class="col-sm-4 text-center">
             <h3 class="text-left">Guillermo Cubero</h3>
@@ -200,7 +193,7 @@
         <div class="row team-row">
           <div class="col-md-3 hidden-sm hidden-xs"></div>
           <div class="col-sm-2">
-            <img src="images\team\jd.png" class="img-circle img-responsive">
+            <img src="images/team/jd.png" class="img-circle img-responsive">
           </div>
           <div class="col-sm-4">
             <h3 class="text-left">Joel Delgado</h3>
