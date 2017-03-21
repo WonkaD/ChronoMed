@@ -4,17 +4,7 @@
         <%@include file="../base.jsp" %>
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <h5>Bienvenido,
-                        <b>Dr. &lt;PEREZ&gt;</b>
-                    </h5>
-                    <div class="list-group">
-                        <a class="list-group-item">Mis pacientes</a>
-                        <a class="list-group-item active" contenteditable="true">Mis datos</a>
-                    </div>
-                </div>
-
-
+                <%@include file="navigation.jsp" %>
                 <div class="col-md-9">
                     <div class="panel panel-primary">
                         <div class="panel-heading">

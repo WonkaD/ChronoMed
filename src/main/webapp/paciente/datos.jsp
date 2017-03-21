@@ -5,20 +5,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <h5>Bienvenido,
-                        <b>Sr. &lt;PEREZ&gt;</b>
-                    </h5>
-                    <div class="list-group">
-                        <a class="list-group-item" href="http://www.google.es">Notificaciones
-                            <span class="badge">42</span>
-                        </a>
-                        <a class="list-group-item">Mi historial médico</a>
-                        <a class="list-group-item">Mi historial de citas</a>
-                        <a class="list-group-item active">Mis datos</a>
-                    </div>
-                </div>
-
+                <%@include file="navigation.jsp" %>
                 <div class="col-md-9">
                     <div class="panel panel-primary">
                         <div class="panel-heading">

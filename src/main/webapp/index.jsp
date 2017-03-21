@@ -26,12 +26,12 @@
                                     <div class="col-md-8">
                                         <div class="form-group has-feedback">
                                             <div class="col-sm-12">
-                                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                                             </div>
                                         </div>
                                         <div class="form-group has-feedback">
                                             <div class="col-sm-12">
-                                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                                <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
                                             </div>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@
                     </div>
                     <div class="col-sm-4">
                         <h3 class="text-left font-bold">Gerardo Medina</h3>
-                        <p class="lead text-left">GUI Designer</p>
+                        <p class="lead text-left">Developer</p>
                     </div>
                 </div>
                 <div class="row team-row">
@@ -162,14 +162,14 @@
                     </div>
                     <div class="col-sm-4">
                         <h3 class="text-left">Saskia Santana</h3>
-                        <p class="lead text-left">DB Designer</p>
+                        <p class="lead text-left">Developer</p>
                     </div>
                     <div class="col-sm-2">
                         <img src="images/team/og.jpg" class="img-circle img-responsive">
                     </div>
                     <div class="col-sm-4 text-center">
                         <h3 class="text-left">Óscar García</h3>
-                        <p class="lead text-left">Deployer</p>
+                        <p class="lead text-left">Developer</p>
                     </div>
                 </div>
                 <div class="row team-row">
@@ -187,7 +187,7 @@
                     </div>
                     <div class="col-sm-4 text-center">
                         <h3 class="text-left">Guillermo Cubero</h3>
-                        <p class="lead text-left">GUI Design Assistant</p>
+                        <p class="lead text-left">Developer</p>
                     </div>
                 </div>
                 <div class="row team-row">
@@ -197,7 +197,7 @@
                     </div>
                     <div class="col-sm-4">
                         <h3 class="text-left">Joel Delgado</h3>
-                        <p class="lead text-left">DB Assistant</p>
+                        <p class="lead text-left">Developer</p>
                     </div>
                 </div>
             </div>
