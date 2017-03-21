@@ -8,24 +8,24 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="signin-form-container">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <a href="gestiondemedicos.jsp" class="btn btn-block btn-lg btn-link register-button"><i class="fa fa-fw -circle fa-arrow-circle-left"></i>Atrás</a>
+                        <form class="form-vertical" role="form">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <a href="gestiondemedicos.jsp" class="btn btn-block btn-lg btn-link "><i class="fa fa-fw -circle fa-arrow-circle-left"></i>Atrás</a>
+                                </div>
+                                <div class="col-md-8">
+                                    <h1 class="form-title text-center">Formulario de registro de médicos</h1>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="btn btn-block btn-lg btn-link pull-right ">Enviar<i class="fa fa-fw -circle fa-check-circle"></i></a>
+                                </div>
                             </div>
-                            <div class="col-md-8">
-                                <h1 class="form-title text-center">Formulario de registro de médicos</h1>
-                            </div>
-                            <div class="col-md-2">
-                                <a class="btn btn-block btn-lg btn-link pull-right register-button">Enviar<i class="fa fa-fw -circle fa-check-circle"></i></a>
-                            </div>
-                        </div>
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title text-left">Datos personales</h3>
-                            </div>
-                            <div class="panel-body">
-                                <div class="row">
-                                    <form class="form-vertical" role="form">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title text-left">Datos personales</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="inputName" class="control-label">Nombre</label>
@@ -65,12 +65,10 @@
                                                 <input type="text" class="form-control" id="inputAlternativePhoneNumber" placeholder="7245623451">
                                             </div>
                                         </div>
-                                    </form>
+                                    </div>
                                 </div>
+                                <div class="panel-footer">*Campos obligatorios</div>
                             </div>
-                            <div class="panel-footer">*Campos obligatorios</div>
-                        </div>
-                        <form class="form-vertical" role="form">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
                                     <h3 class="panel-title text-left">Datos de acceso</h3>

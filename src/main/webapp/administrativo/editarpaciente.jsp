@@ -7,43 +7,43 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="signin-form-container">
-                        <div class="row">
-                            <div class="col-md-2">
-                                <a href="gestiondepacientes.jsp" class="btn btn-block btn-lg btn-link register-button"><i class="fa fa-fw -circle fa-arrow-circle-left"></i>Atrás</a>
+                        <form class="form-vertical" role="form">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <a href="gestiondepacientes.jsp" class="btn btn-block btn-lg btn-link "><i class="fa fa-fw -circle fa-arrow-circle-left"></i>Atrás</a>
+                                </div>
+                                <div class="col-md-8">
+                                    <h1 class="form-title text-center">Sr. Pérez</h1>
+                                </div>
+                                <div class="col-md-2">
+                                    <a class="btn btn-block btn-lg btn-link pull-right ">Guardar&nbsp;<i class="fa fa-fw -circle -circle fa-save"></i></a>
+                                </div>
                             </div>
-                            <div class="col-md-8">
-                                <h1 class="form-title text-center">Sr. Pérez</h1>
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title text-left">Médicos vinculados</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <ol class="list-unstyled">
+                                        <li class="health-card-item">Dr. Pérez
+                                            <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
+                                        </li>
+                                        <li class="health-card-item">Dr. Moreno
+                                            <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
+                                        </li>
+                                        <li class="health-card-item">Dra. Martín
+                                            <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
+                                        </li>
+                                    </ol>
+                                    <a class="btn btn-primary btn-xs"><i class="-circle fa fa-fw fa-plus-circle"></i>Añadir médico&nbsp;</a>
+                                </div>
                             </div>
-                            <div class="col-md-2">
-                                <a class="btn btn-block btn-lg btn-link pull-right register-button">Guardar&nbsp;<i class="fa fa-fw -circle -circle fa-save"></i></a>
-                            </div>
-                        </div>
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title text-left">Médicos vinculados</h3>
-                            </div>
-                            <div class="panel-body">
-                                <ol class="list-unstyled">
-                                    <li class="health-card-item">Dr. Pérez
-                                        <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
-                                    </li>
-                                    <li class="health-card-item">Dr. Moreno
-                                        <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
-                                    </li>
-                                    <li class="health-card-item">Dra. Martín
-                                        <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
-                                    </li>
-                                </ol>
-                                <a class="btn btn-primary btn-xs"><i class="-circle fa fa-fw fa-plus-circle"></i>Añadir médico&nbsp;</a>
-                            </div>
-                        </div>
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                <h3 class="panel-title text-left">Datos personales</h3>
-                            </div>
-                            <div class="panel-body">
-                                <div class="row">
-                                    <form class="form-vertical" role="form">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title text-left">Datos personales</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="inputName" class="control-label">Nombre*</label>
@@ -75,25 +75,23 @@
                                                 <input type="password" class="form-control" id="inputNationality" placeholder="España">
                                             </div>
                                         </div>
-                                    </form>
+                                    </div>
+                                    <label class="control-label">Tarjetas sanitarias</label>
+                                    <ol class="list-unstyled">
+                                        <li class="health-card-item">23461256012578
+                                            <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
+                                        </li>
+                                        <li class="health-card-item">23461256012578
+                                            <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
+                                        </li>
+                                        <li class="health-card-item">23461256012578
+                                            <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
+                                        </li>
+                                    </ol>
+                                    <a class="btn btn-primary btn-xs"><i class="-circle fa fa-fw fa-plus-circle"></i>Añadir tarjeta sanitaria&nbsp;</a>
                                 </div>
-                                <label class="control-label">Tarjetas sanitarias</label>
-                                <ol class="list-unstyled">
-                                    <li class="health-card-item">23461256012578
-                                        <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
-                                    </li>
-                                    <li class="health-card-item">23461256012578
-                                        <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
-                                    </li>
-                                    <li class="health-card-item">23461256012578
-                                        <a href="#" class="btn btn-danger btn-xs pull-right"><i class="fa fa-fw fa-remove"></i> Eliminar</a>
-                                    </li>
-                                </ol>
-                                <a class="btn btn-primary btn-xs"><i class="-circle fa fa-fw fa-plus-circle"></i>Añadir tarjeta sanitaria&nbsp;</a>
+                                <div class="panel-footer">*Campos obligatorios</div>
                             </div>
-                            <div class="panel-footer">*Campos obligatorios</div>
-                        </div>
-                        <form class="form-vertical" role="form">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
                                     <h3 class="panel-title text-left">Datos de contacto</h3>
@@ -138,8 +136,6 @@
                                 </div>
                                 <div class="panel-footer">*Campos obligatorios</div>
                             </div>
-                        </form>
-                        <form class="form-vertical" role="form">
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
                                     <h3 class="panel-title text-left">Datos de acceso</h3>

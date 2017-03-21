@@ -6777,7 +6777,7 @@ body {
 }
 .signin-form {
     padding: 20px;
-    background: #F2F2F2;
+    background: #D8D8D8;
 }
 .signin-form-container {
     background: white;
@@ -6808,4 +6808,8 @@ body {
 }
 .health-card-item {
     margin-top: 10px;
+}
+
+.form-title {
+    margin: 0px;
 }

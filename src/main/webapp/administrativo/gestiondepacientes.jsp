@@ -9,7 +9,7 @@
                     <div class="signin-form-container">
                         <div class="row">
                             <div class="col-md-4">
-                                <a class="btn btn-lg btn-primary register-button" href="registrarpaciente.jsp"><i class="fa fa-fw fa-plus-circle"></i>Registrar paciente</a>
+                                <a class="btn btn-lg btn-primary " href="registrarpaciente.jsp"><i class="fa fa-fw fa-plus-circle"></i>Registrar paciente</a>
                             </div>
                             <div class="col-md-4">
                                 <form class="form-horizontal" role="form">

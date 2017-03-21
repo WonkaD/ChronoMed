@@ -3,15 +3,13 @@
     <body class="body-background">
         <%@include file="../base.jsp" %>
         <%@include file="navigation.jsp" %>
-
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="nav nav-justified nav-tabs"></ul>
                     <div class="signin-form-container">
                         <div class="row">
                             <div class="col-md-7">
-                                <a class="btn btn-lg btn-primary register-button" href="registrarmedico.jsp"><i class="fa fa-fw fa-plus-circle"></i>Registrar médico</a>
+                                <a class="btn btn-lg btn-primary " href="registrarmedico.jsp"><i class="fa fa-fw fa-plus-circle"></i>Registrar médico</a>
                             </div>
                             <div class="col-md-5">
                                 <form class="form-horizontal" role="form">
