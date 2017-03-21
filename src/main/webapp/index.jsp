@@ -10,13 +10,13 @@
                     </div>
                     <div class="col-md-7 signin-form">
                         <ul class="nav nav-justified nav-tabs">
-                            <li class="active">
+                            <li class="active" data-toggle="tab">
                                 <a href="#"><i class="fa fa-fw fa-lg fa-user"></i>Soy paciente<br></a>
                             </li>
-                            <li>
+                            <li data-toggle="tab">
                                 <a href="#"><i class="fa fa-fw fa-lg fa-user-md"></i>Soy médico<br></a>
                             </li>
-                            <li>
+                            <li data-toggle="tab">
                                 <a href="#"><i class="fa fa-briefcase fa-fw fa-lg"></i>Soy administrativo<br></a>
                             </li>
                         </ul>

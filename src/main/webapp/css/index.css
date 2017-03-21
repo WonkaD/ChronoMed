@@ -6784,7 +6784,6 @@ body {
     border-left: 1px solid gainsboro;
     border-right: 1px solid gainsboro;
     border-bottom: 1px solid gainsboro;
-    padding: 30px;
 }
 .contact-section {
     margin-bottom: 50px;
@@ -6810,21 +6809,3 @@ body {
 .health-card-item {
     margin-top: 10px;
 }
-.logout-button {
-    margin-bottom: 20px;
-}
-.secretary-panel {
-    background: white;
-    border-top: none;
-    border-left: 1px solid gainsboro;
-    border-right: 1px solid gainsboro;
-    border-bottom: 1px solid gainsboro;
-    border-radius: 4px;
-}
-.register-button {
-    margin-bottom: 20px;
-}
-.form-title {
-    margin: 0px;
-}
-

@@ -6,7 +6,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="nav nav-justified nav-tabs"></ul>
                     <div class="signin-form-container">
                         <div class="row">
                             <div class="col-md-4">
@@ -34,12 +33,6 @@
                             </div>
                         </div>
                         <div class="list-group">
-                            <a href="editarpaciente.jsp" class="list-group-item">
-                                <h4 class="list-group-item-heading">Pepe de Tal<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
-                                <p class="list-group-item-text">
-                                    1234102T
-                                </p>
-                            </a>
                             <a href="editarpaciente.jsp" class="list-group-item">
                                 <h4 class="list-group-item-heading">Pepe de Tal<i class="-circle fa fa-2x fa-fw pull-right text-primary fa-angle-right"></i></h4>
                                 <p class="list-group-item-text">

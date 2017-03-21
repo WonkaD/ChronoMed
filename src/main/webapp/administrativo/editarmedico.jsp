@@ -18,55 +18,53 @@
                                 <a class="btn btn-block btn-lg btn-link pull-right register-button">Guardar&nbsp;<i class="fa fa-fw -circle -circle fa-save"></i></a>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="panel panel-primary">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title text-left">Datos personales</h3>
-                                </div>
-                                <div class="panel-body">
-                                    <div class="row">
-                                        <form class="form-vertical" role="form">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="inputName" class="control-label">Nombre</label>
-                                                    <input type="text" class="form-control" id="inputName" placeholder="Fulano">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="inputSurname" class="control-label">Apellidos</label>
-                                                    <input type="text" class="form-control" id="inputSurname" placeholder="De Tal De Cual">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="inputDNI" class="control-label">DNI</label>
-                                                    <input type="password" class="form-control" id="inputDNI" placeholder="123452343Q">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="inputGender" class="control-label">Género</label>
-                                                    <select class="form-control" id="inputGender">
-                                                        <option>Masculino</option>
-                                                        <option>Femenino</option>
-                                                    </select>
-                                                </div>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title text-left">Datos personales</h3>
+                            </div>  
+                            <div class="panel-body">
+                                <div class="row">
+                                    <form class="form-vertical" role="form">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputName" class="control-label">Nombre</label>
+                                                <input type="text" class="form-control" id="inputName" placeholder="Fulano">
                                             </div>
-                                            <div class="col-md-6" draggable="true">
-                                                <div class="form-group">
-                                                    <label for="inputSpeciality" class="control-label">Especialidad</label>
-                                                    <input type="text" class="form-control" id="inputSpeciality" placeholder="Ginecología">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="inputBoardNumber" class="control-label">Nº de colegiado</label>
-                                                    <input type="text" class="form-control" id="inputBoardNumber" placeholder="4329509837">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="inputPhoneNumber" class="control-label">Teléfono de consulta</label>
-                                                    <input type="text" class="form-control" id="inputPhoneNumber" placeholder="2352363123">
-                                                </div>
-                                                <div class="form-group">
-                                                    <label for="inputALternativePhoneNumber" class="control-label">Teléfono personal</label>
-                                                    <input type="text" class="form-control" id="inputAlternativePhoneNumber" placeholder="7245623451">
-                                                </div>
+                                            <div class="form-group">
+                                                <label for="inputSurname" class="control-label">Apellidos</label>
+                                                <input type="text" class="form-control" id="inputSurname" placeholder="De Tal De Cual">
                                             </div>
-                                        </form>
-                                    </div>
+                                            <div class="form-group">
+                                                <label for="inputDNI" class="control-label">DNI</label>
+                                                <input type="password" class="form-control" id="inputDNI" placeholder="123452343Q">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputGender" class="control-label">Género</label>
+                                                <select class="form-control" id="inputGender">
+                                                    <option>Masculino</option>
+                                                    <option>Femenino</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6" draggable="true">
+                                            <div class="form-group">
+                                                <label for="inputSpeciality" class="control-label">Especialidad</label>
+                                                <input type="text" class="form-control" id="inputSpeciality" placeholder="Ginecología">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputBoardNumber" class="control-label">Nº de colegiado</label>
+                                                <input type="text" class="form-control" id="inputBoardNumber" placeholder="4329509837">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputPhoneNumber" class="control-label">Teléfono de consulta</label>
+                                                <input type="text" class="form-control" id="inputPhoneNumber" placeholder="2352363123">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="inputALternativePhoneNumber" class="control-label">Teléfono personal</label>
+                                                <input type="text" class="form-control" id="inputAlternativePhoneNumber" placeholder="7245623451">
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                                 <div class="panel-footer">*Campos obligatorios</div>
                             </div>
@@ -93,11 +91,12 @@
                                     <div class="panel-footer">*Campos obligatorios</div>
                                 </div>
                             </form>
-                        </div>
+                        </div>     
                     </div>
                 </div>
             </div>
         </div>
-        <%@include file="../footer.jsp" %>
+    </div>
+    <%@include file="../footer.jsp" %>
 
-    </body></html>
+</body></html>
