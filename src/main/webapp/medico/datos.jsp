@@ -44,7 +44,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-6" draggable="true">
+                                    <div class="col-md-6" >
                                         <div class="form-group">
                                             <label for="inputSpeciality" class="control-label">Especialidad</label>
                                             <input type="text" class="form-control" id="inputSpeciality" placeholder="Ginecología" disabled="disabled">

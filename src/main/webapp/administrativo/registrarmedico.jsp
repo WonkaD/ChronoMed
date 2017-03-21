@@ -47,7 +47,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-md-6" draggable="true">
+                                        <div class="col-md-6" >
                                             <div class="form-group">
                                                 <label for="inputSpeciality" class="control-label">Especialidad</label>
                                                 <input type="text" class="form-control" id="inputSpeciality" placeholder="Ginecología">
@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                                 <div class="panel-footer">*Campos obligatorios</div>
-                            </div>
+                            </div><!--
                             <div class="panel panel-primary">
                                 <div class="panel-heading">
                                     <h3 class="panel-title text-left">Datos de acceso</h3>
@@ -84,7 +84,7 @@
                                     </div>
                                 </div>
                                 <div class="panel-footer">*Campos obligatorios</div>
-                            </div>
+                            </div>-->
                         </form>
                     </div>
                 </div>
